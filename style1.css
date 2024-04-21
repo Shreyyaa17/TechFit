@@ -1,0 +1,112 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+  .center {
+    position: absolute;
+    left:49%;
+    top:51%;
+    transform: translate(49%,51%);
+  }
+  
+  .center button{
+    font-size: 14px;
+    padding: 10px 20px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 4px;
+    background: #aaa;
+    color:blueviolet;
+    outline:none;
+  }
+  
+  .logsign{
+    position:absolute;
+    width: 350px;
+    top: 150%;
+    left:51%;
+    opacity: 0;
+    transform: translate(-50%,-50%) scale(1.24);
+    padding:19px 29px;
+    background: #111;
+    box-shadow: 2px 2px 5px 5px rgba(0,0,0,0,0.15);
+    border-radius: 8px;
+    transition: top;
+    transition: top 0ms ease-in-out 200ms,
+                opacity 200ms ease-in-out 0ms,
+                transform 20ms ease-in-out 0ms;
+  }
+  .logsign .active{
+    top:50%;
+    opacity: 1;
+    transform: translate(-50%,-50%) scale(1);
+    transition: top 0ms ease-in-out 200ms,
+    opacity 200ms ease-in-out 0ms,
+    transform 20ms ease-in-out 0ms;
+  }
+  .logsign .btn{
+    position:absolute;
+    border-radius: 10px;
+    background: #aaa;
+    top:10px;
+    right:10px;
+    width:14px;
+    height:14px;
+    color:aqua;
+    text-align:center;
+    line-height: 14px;
+    border-radius: 14px;
+    cursor: pointer;
+  }
+  .logsign .detail h2{
+    margin: 10px 0px 19px;
+    font-size: 20px;
+    color:blue;
+  }
+  
+  .logsign .detail .re-information{
+    margin: 14px 0px;
+  }
+  
+  .logsign .detail .re-information label{
+    font-size: 14px;
+    color:brown;
+  }
+  
+  .logsign .detail .re-information input[type="text"],
+  .logsign .detail .re-information input[type="password"]{
+  margin-top:5px;
+  width:100%;
+  display: block;
+  border: 1px solid #f00;
+  outline: none;
+  border-radius: 4px;
+  padding: 10px;
+  }
+  
+  .logsign .detail .re-information input[type="checkbox"]{
+  margin-right: 4px;
+  }
+  
+  .logsign .detail .re-information button{
+    width: 100%;
+    outline:none;
+    border-radius:10px;
+    border:none;
+    font-size: 16px;
+    background: #f00;
+    color:#000;
+    cursor: pointer;
+    }
+  
+  .logsign .detail .re-information a{
+  display: block;
+  font-size: 14px;
+  text-decoration: none;
+  text-align: right;
+  font-weight: 600;
+  color:darkgoldenrod
+  }  
+  
