@@ -15,11 +15,11 @@ CSS Animation
 JavaScript
 Artificial Intelligence
 
-Installation: 
+INSTALLATION: 
 Here we install Visual Studio Code(where we wrote the code of our website). We install it from the offical website of Visual Studio Code.
 
-Usage:
+USAGE:
 In navbar, (HOME, ABOUT US, SPORTS, FEATURES, LOGIN SIGNUP, CONTACT US) on clicking on any particular option user will reach to that section directly. In sports section we provide user at the bottom of every image there is a YouTube link of our channel so that user can access the exercises for particular sports.
 
-Contact Informatatio:
+CONTACT INFORMATION:
 In includes our email address so that anyone can contact us through it.
