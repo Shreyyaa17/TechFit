@@ -1,7 +1,7 @@
 # TechFit
 
 TAGLINE:
-TechFit, a website that provides you with a variety of exercises to stay fit and healthy.
+TechFit provides you with a variety of exercises to stay fit and healthy.
 
 OVERVIEW:
 At TechFit, we're passionate about the intersection of technology and fitness. Our mission is to empower you with cutting-edge tools, insightful resources, and expert advice to help you achieve your health and wellness goals through the power of technology. 
